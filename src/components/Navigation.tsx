@@ -37,12 +37,7 @@ export function Navigation() {
       <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
-          <div className="w-10 h-10 relative">
-            <svg viewBox="0 0 48 48" className="w-full h-full">
-              <circle cx="24" cy="24" r="22" stroke="#A64B5B" strokeWidth="2" fill="none"/>
-              <text x="14" y="32" fontFamily="Arial Black" fontSize="18" fontWeight="900" fill="#A64B5B">H2</text>
-            </svg>
-          </div>
+          <img src="/h2-logo.png" alt="H2 Logo" className="w-10 h-10" />
           <span className="font-semibold text-lg tracking-tight">H2</span>
         </a>
 
