@@ -5,5 +5,10 @@ compatibility_flags = ["nodejs_compat"]
 main = ".open-next/worker.js"
 assets = { directory = ".open-next/assets", binding = "ASSETS" }
 
+# Custom domain deployment
+routes = [
+  { pattern = "h2growth.ai", custom_domain = true }
+]
+
 [observability.logs]
 enabled = true

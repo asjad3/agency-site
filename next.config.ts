@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Ensure output is standalone for better bundling
+  output: "standalone",
 };
 
 export default nextConfig;

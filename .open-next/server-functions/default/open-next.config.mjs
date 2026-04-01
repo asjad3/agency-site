@@ -210,7 +210,10 @@ function resolveCdnInvalidation(value = "dummy") {
 
 // open-next.config.ts
 var open_next_config_default = defineCloudflareConfig({
-  // Default config for Next.js on Cloudflare
+  // Use dummy cache to avoid DynamoDB dependencies
+  incrementalCache: "dummy",
+  tagCache: "dummy",
+  queue: "dummy"
 });
 export {
   open_next_config_default as default

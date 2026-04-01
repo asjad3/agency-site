@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npx opennextjs-cloudflare:*)",
+      "Bash(npx wrangler:*)",
+      "WebFetch(domain:h2growth.ai)",
+      "Bash(nslookup h2growth.ai)"
+    ]
+  }
+}
